@@ -1,6 +1,8 @@
-#get the fist element
-def get_first_element(numbers):
-    return numbers[0]
-whole_number = [2,3,43,5,35,53]
-final = get_first_element(whole_number)
-print(final)
+def is_even(even):
+    if even % 2 == 0:
+        return True
+    else:
+        return False
+number = 343
+result = is_even(number)
+print(result)
