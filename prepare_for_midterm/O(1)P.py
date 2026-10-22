@@ -1,8 +1,6 @@
-num_total = [2,3,5,6]
-i = num_total[0]
-if i % 2 == 0:
-  print(f"{i}even number")
-else:
- print(f"{i}odd number")
-
-
+#get the fist element
+def get_first_element(numbers):
+    return numbers[0]
+whole_number = [2,3,43,5,35,53]
+final = get_first_element(whole_number)
+print(final)
