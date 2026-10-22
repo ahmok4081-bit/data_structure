@@ -1,8 +1,8 @@
-def is_even(even):
-    if even % 2 == 0:
-        return True
-    else:
-        return False
-number = 343
-result = is_even(number)
+# get the first element if it eamty return eamty
+def get_first_element(list):
+    if len(list) == 0:
+        return"the list is empty"
+    return list[0]
+number = []
+result = get_first_element(number)
 print(result)
