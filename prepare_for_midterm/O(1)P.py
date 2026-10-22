@@ -1,6 +1,8 @@
-def get_the_first_element(arr):
-    if len(arr) > 0:
-        print("yes")
-    return None
-arr = [23,34,34,54,54]
-get_the_first_element(arr)
+num_total = [2,3,5,6]
+i = num_total[0]
+if i % 2 == 0:
+  print(f"{i}even number")
+else:
+ print(f"{i}odd number")
+
+
